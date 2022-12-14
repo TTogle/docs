@@ -100,9 +100,9 @@ The example below illustrates Account A sending a transaction to Account C and A
 
 === "goal"
 	``` goal
-    $ goal clerk send --from=my-account-a<PLACEHOLDER> --to=my-account-c<PLACEHOLDER> --fee=1000 --amount=100000 --out=unsginedtransaction1.txn"
+    $ goal clerk send --from=my-account-a<PLACEHOLDER> --to=my-account-c<PLACEHOLDER> --fee=1000 --amount=100000 --out=unsignedtransaction1.txn"
 
-    $ goal clerk send --from=my-account-b<PLACEHOLDER> --to=my-account-a<PLACEHOLDER> --fee=1000 --amount=200000 --out=unsginedtransaction2.txn"
+    $ goal clerk send --from=my-account-b<PLACEHOLDER> --to=my-account-a<PLACEHOLDER> --fee=1000 --amount=200000 --out=unsignedtransaction2.txn"
     ```
 
 At this point, these are just individual transactions. The next critical step is to combine them and then calculate the group ID.
